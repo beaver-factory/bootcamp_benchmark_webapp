@@ -16,13 +16,16 @@ export default function About() {
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       imgSrc: "tbd.jpeg",
       portfolioUrl: "",
+      githubUrl: "https://github.com/teyahbd",
       linkedInUrl: "https://www.linkedin.com/in/teyahbd/"
+
     },
     {
       name: "Chris",
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       imgSrc: "cd.jpeg",
       portfolioUrl: "",
+      githubUrl: "https://github.com/Chris-Duignan",
       linkedInUrl: "https://www.linkedin.com/in/chris-duignan-142963175/"
     },
     {
@@ -30,6 +33,7 @@ export default function About() {
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       imgSrc: "ac.jpeg",
       portfolioUrl: "",
+      githubUrl: "https://github.com/alexcupit",
       linkedInUrl: "https://www.linkedin.com/in/alexcupit/"
     },
   ];
