@@ -33,7 +33,7 @@ export default function bioItem({
         src={imgSrc}
       ></img>
       <section className="w-[40vw] gap-4 h-max border-solid border-black border-2 flex flex-col justify-center items-center p-2 bg-white">
-        <p className="h-max ">{bio}</p>
+        <p className="h-max text-black p-5">{bio}</p>
         <BioLinks
           githubUrl={githubUrl ?? ""}
           portfolioUrl={portfolioUrl ?? ""}
