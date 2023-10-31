@@ -6,6 +6,7 @@ type props = {
   githubUrl: string | undefined;
   portfolioUrl: string | undefined;
   linkedInUrl: string | undefined;
+  imgSrc: string | undefined
 };
 
 export default function bioItem({
@@ -14,6 +15,7 @@ export default function bioItem({
   githubUrl,
   portfolioUrl,
   linkedInUrl,
+  imgSrc
 }: props) {
   return (
     <li
@@ -28,7 +30,7 @@ export default function bioItem({
           "border-solid border-black border-2  rounded-full min-w-[100px] max-w-[125px] "
         }
         alt="profile image"
-        src="beaver.jpg"
+        src={imgSrc}
       ></img>
       <section className="w-[40vw] gap-4 h-max border-solid border-black border-2 flex flex-col justify-center items-center p-2 bg-white">
         <p className="h-max ">{bio}</p>
